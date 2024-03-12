@@ -1,0 +1,7 @@
+{
+  "name": "overlays-toast-bug",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
