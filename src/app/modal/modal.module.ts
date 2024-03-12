@@ -2,10 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
-import { HomePage } from './home.page';
-
-import { HomePageRoutingModule } from './home-routing.module';
-import { MyModalModule } from '../modal/modal.module';
+import { MyModalPage } from './modal';
 
 
 @NgModule({
@@ -13,9 +10,7 @@ import { MyModalModule } from '../modal/modal.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule,
-    MyModalModule,
   ],
-  declarations: [HomePage]
+  declarations: [MyModalPage]
 })
-export class HomePageModule {}
+export class MyModalModule {}
